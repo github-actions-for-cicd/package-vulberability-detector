@@ -3,7 +3,6 @@ description: 'Find vulnerabilities in packages listed by the SBOM generator'
 branding:
   icon: 'check-circle'
   color: 'green'
-inputs: 
 runs:
   using: "composite"
   steps:  
