@@ -9,9 +9,6 @@ runs:
     - name: Change sbom
       run: (tail -n +2 sbom.xml)>sbom-new.txt
       shell: bash
-    - name: Auth detector script
-      run: chmod -x script.sh
-      shell: bash
     - name: Run detector script
       run: .github-actions-for-cicd/package-vulnerability-detector/script.sh
       shell: bash
