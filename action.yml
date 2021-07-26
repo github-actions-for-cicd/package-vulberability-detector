@@ -7,7 +7,7 @@ runs:
   using: "composite"
   steps:  
     - name: Change sbom
-      run: (tail -n +2 sobs.xml)>sbom-new.txt
+      run: (tail -n +2 sbom.xml)>sbom-new.txt
       shell: bash
     - name: Auth detector script
       run: chmod -x script.sh
