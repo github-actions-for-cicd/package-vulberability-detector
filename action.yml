@@ -10,6 +10,6 @@ runs:
       run: (tail -n +2 sbom.xml)>sbom-new.txt
       shell: bash
     - name: Run detector script
-      run: .github-actions-for-cicd/package-vulnerability-detector/script.sh
+      run: github-actions-for-cicd/package-vulnerability-detector/script.sh
       shell: bash
  
